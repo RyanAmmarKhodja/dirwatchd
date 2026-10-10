@@ -1,0 +1,6 @@
+{
+  "watch_directory": "/path/to/target-dir/",
+  "log_file": "integrity.log",
+  "baseline_file": "baseline.json",
+  "check_interval_seconds": 10
+}

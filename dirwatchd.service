@@ -1,0 +1,13 @@
+[Unit]
+Description=Directory Integrity Watcher Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/path/to/dirwatchd
+ExecStart=/usr/bin/python3 /path/to/dirwatchd/watchd.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
