@@ -1,3 +1,5 @@
+dirwatchd is a lightweight Linux daemon that monitors specified directories for file changes, creations, and deletions using SHA-256 integrity hashing and logs events with system metadata.
+
 Features
 
     Integrity Monitoring: Detects modified, added, or deleted files using SHA-256 hashes.
